@@ -2540,7 +2540,7 @@ form .padding-left-15 {
   }
   .logo img {
     width: auto;
-    height: 60px;
+    max-height: 60px;
   }
   .th-nav-btn {
     right: 80px;
