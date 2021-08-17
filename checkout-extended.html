@@ -1,0 +1,789 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pearson L homes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- ThemeFisher Icon -->
+    <link rel="stylesheet" href="plugins/themefisher-fonts/themefisher-fonts.css">
+    <!-- Light Box -->
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/checkout.css">
+
+    <style>
+      #map_canvas {
+        height: 100%;
+      }
+    </style>
+    <script src="plugins/modernizr.min.js"></script>
+  </head>
+  <body>
+  <div class="loading">
+
+    <div class="windows8 loading-position">
+      <div class="wBall" id="wBall_1">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_2">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_3">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_4">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_5">
+        <div class="wInnerBall"></div>
+      </div>
+    </div>
+  </div> 
+
+
+ <!-- Navigation -section
+  =========================-->
+<nav class="navbar navbar-fixed-top navigation" >
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="index.html">
+        <img src="images/logo.png" style="max-height: 60px;" alt="">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+
+
+<section id="checkout">
+  <div class="container">
+    <div class="title">
+        <h2>Product Order Form</h2>
+    </div>
+  <div class="d-flex">
+    <form action="" method="" style="grid-area: form;">
+      <label>
+        <span class="fname">First Name <span class="required">*</span></span>
+        <input type="text" name="fname">
+      </label>
+      <label>
+        <span class="lname">Last Name <span class="required">*</span></span>
+        <input type="text" name="lname">
+      </label>
+      <label>
+        <span>Company Name (Optional)</span>
+        <input type="text" name="cn">
+      </label>
+      <label>
+        <span>Country <span class="required">*</span></span>
+        <select name="selection">
+          <option value="select">Select a country...</option>
+          <option value="AFG">Afghanistan</option>
+          <option value="ALA">Åland Islands</option>
+          <option value="ALB">Albania</option>
+          <option value="DZA">Algeria</option>
+          <option value="ASM">American Samoa</option>
+          <option value="AND">Andorra</option>
+          <option value="AGO">Angola</option>
+          <option value="AIA">Anguilla</option>
+          <option value="ATA">Antarctica</option>
+          <option value="ATG">Antigua and Barbuda</option>
+          <option value="ARG">Argentina</option>
+          <option value="ARM">Armenia</option>
+          <option value="ABW">Aruba</option>
+          <option value="AUS">Australia</option>
+          <option value="AUT">Austria</option>
+          <option value="AZE">Azerbaijan</option>
+          <option value="BHS">Bahamas</option>
+          <option value="BHR">Bahrain</option>
+          <option value="BGD">Bangladesh</option>
+          <option value="BRB">Barbados</option>
+          <option value="BLR">Belarus</option>
+          <option value="BEL">Belgium</option>
+          <option value="BLZ">Belize</option>
+          <option value="BEN">Benin</option>
+          <option value="BMU">Bermuda</option>
+          <option value="BTN">Bhutan</option>
+          <option value="BOL">Bolivia, Plurinational State of</option>
+          <option value="BES">Bonaire, Sint Eustatius and Saba</option>
+          <option value="BIH">Bosnia and Herzegovina</option>
+          <option value="BWA">Botswana</option>
+          <option value="BVT">Bouvet Island</option>
+          <option value="BRA">Brazil</option>
+          <option value="IOT">British Indian Ocean Territory</option>
+          <option value="BRN">Brunei Darussalam</option>
+          <option value="BGR">Bulgaria</option>
+          <option value="BFA">Burkina Faso</option>
+          <option value="BDI">Burundi</option>
+          <option value="KHM">Cambodia</option>
+          <option value="CMR">Cameroon</option>
+          <option value="CAN">Canada</option>
+          <option value="CPV">Cape Verde</option>
+          <option value="CYM">Cayman Islands</option>
+          <option value="CAF">Central African Republic</option>
+          <option value="TCD">Chad</option>
+          <option value="CHL">Chile</option>
+          <option value="CHN">China</option>
+          <option value="CXR">Christmas Island</option>
+          <option value="CCK">Cocos (Keeling) Islands</option>
+          <option value="COL">Colombia</option>
+          <option value="COM">Comoros</option>
+          <option value="COG">Congo</option>
+          <option value="COD">Congo, the Democratic Republic of the</option>
+          <option value="COK">Cook Islands</option>
+          <option value="CRI">Costa Rica</option>
+          <option value="CIV">Côte d'Ivoire</option>
+          <option value="HRV">Croatia</option>
+          <option value="CUB">Cuba</option>
+          <option value="CUW">Curaçao</option>
+          <option value="CYP">Cyprus</option>
+          <option value="CZE">Czech Republic</option>
+          <option value="DNK">Denmark</option>
+          <option value="DJI">Djibouti</option>
+          <option value="DMA">Dominica</option>
+          <option value="DOM">Dominican Republic</option>
+          <option value="ECU">Ecuador</option>
+          <option value="EGY">Egypt</option>
+          <option value="SLV">El Salvador</option>
+          <option value="GNQ">Equatorial Guinea</option>
+          <option value="ERI">Eritrea</option>
+          <option value="EST">Estonia</option>
+          <option value="ETH">Ethiopia</option>
+          <option value="FLK">Falkland Islands (Malvinas)</option>
+          <option value="FRO">Faroe Islands</option>
+          <option value="FJI">Fiji</option>
+          <option value="FIN">Finland</option>
+          <option value="FRA">France</option>
+          <option value="GUF">French Guiana</option>
+          <option value="PYF">French Polynesia</option>
+          <option value="ATF">French Southern Territories</option>
+          <option value="GAB">Gabon</option>
+          <option value="GMB">Gambia</option>
+          <option value="GEO">Georgia</option>
+          <option value="DEU">Germany</option>
+          <option value="GHA">Ghana</option>
+          <option value="GIB">Gibraltar</option>
+          <option value="GRC">Greece</option>
+          <option value="GRL">Greenland</option>
+          <option value="GRD">Grenada</option>
+          <option value="GLP">Guadeloupe</option>
+          <option value="GUM">Guam</option>
+          <option value="GTM">Guatemala</option>
+          <option value="GGY">Guernsey</option>
+          <option value="GIN">Guinea</option>
+          <option value="GNB">Guinea-Bissau</option>
+          <option value="GUY">Guyana</option>
+          <option value="HTI">Haiti</option>
+          <option value="HMD">Heard Island and McDonald Islands</option>
+          <option value="VAT">Holy See (Vatican City State)</option>
+          <option value="HND">Honduras</option>
+          <option value="HKG">Hong Kong</option>
+          <option value="HUN">Hungary</option>
+          <option value="ISL">Iceland</option>
+          <option value="IND">India</option>
+          <option value="IDN">Indonesia</option>
+          <option value="IRN">Iran, Islamic Republic of</option>
+          <option value="IRQ">Iraq</option>
+          <option value="IRL">Ireland</option>
+          <option value="IMN">Isle of Man</option>
+          <option value="ISR">Israel</option>
+          <option value="ITA">Italy</option>
+          <option value="JAM">Jamaica</option>
+          <option value="JPN">Japan</option>
+          <option value="JEY">Jersey</option>
+          <option value="JOR">Jordan</option>
+          <option value="KAZ">Kazakhstan</option>
+          <option value="KEN">Kenya</option>
+          <option value="KIR">Kiribati</option>
+          <option value="PRK">Korea, Democratic People's Republic of</option>
+          <option value="KOR">Korea, Republic of</option>
+          <option value="KWT">Kuwait</option>
+          <option value="KGZ">Kyrgyzstan</option>
+          <option value="LAO">Lao People's Democratic Republic</option>
+          <option value="LVA">Latvia</option>
+          <option value="LBN">Lebanon</option>
+          <option value="LSO">Lesotho</option>
+          <option value="LBR">Liberia</option>
+          <option value="LBY">Libya</option>
+          <option value="LIE">Liechtenstein</option>
+          <option value="LTU">Lithuania</option>
+          <option value="LUX">Luxembourg</option>
+          <option value="MAC">Macao</option>
+          <option value="MKD">Macedonia, the former Yugoslav Republic of</option>
+          <option value="MDG">Madagascar</option>
+          <option value="MWI">Malawi</option>
+          <option value="MYS">Malaysia</option>
+          <option value="MDV">Maldives</option>
+          <option value="MLI">Mali</option>
+          <option value="MLT">Malta</option>
+          <option value="MHL">Marshall Islands</option>
+          <option value="MTQ">Martinique</option>
+          <option value="MRT">Mauritania</option>
+          <option value="MUS">Mauritius</option>
+          <option value="MYT">Mayotte</option>
+          <option value="MEX">Mexico</option>
+          <option value="FSM">Micronesia, Federated States of</option>
+          <option value="MDA">Moldova, Republic of</option>
+          <option value="MCO">Monaco</option>
+          <option value="MNG">Mongolia</option>
+          <option value="MNE">Montenegro</option>
+          <option value="MSR">Montserrat</option>
+          <option value="MAR">Morocco</option>
+          <option value="MOZ">Mozambique</option>
+          <option value="MMR">Myanmar</option>
+          <option value="NAM">Namibia</option>
+          <option value="NRU">Nauru</option>
+          <option value="NPL">Nepal</option>
+          <option value="NLD">Netherlands</option>
+          <option value="NCL">New Caledonia</option>
+          <option value="NZL">New Zealand</option>
+          <option value="NIC">Nicaragua</option>
+          <option value="NER">Niger</option>
+          <option value="NGA">Nigeria</option>
+          <option value="NIU">Niue</option>
+          <option value="NFK">Norfolk Island</option>
+          <option value="MNP">Northern Mariana Islands</option>
+          <option value="NOR">Norway</option>
+          <option value="OMN">Oman</option>
+          <option value="PAK">Pakistan</option>
+          <option value="PLW">Palau</option>
+          <option value="PSE">Palestinian Territory, Occupied</option>
+          <option value="PAN">Panama</option>
+          <option value="PNG">Papua New Guinea</option>
+          <option value="PRY">Paraguay</option>
+          <option value="PER">Peru</option>
+          <option value="PHL">Philippines</option>
+          <option value="PCN">Pitcairn</option>
+          <option value="POL">Poland</option>
+          <option value="PRT">Portugal</option>
+          <option value="PRI">Puerto Rico</option>
+          <option value="QAT">Qatar</option>
+          <option value="REU">Réunion</option>
+          <option value="ROU">Romania</option>
+          <option value="RUS">Russian Federation</option>
+          <option value="RWA">Rwanda</option>
+          <option value="BLM">Saint Barthélemy</option>
+          <option value="SHN">Saint Helena, Ascension and Tristan da Cunha</option>
+          <option value="KNA">Saint Kitts and Nevis</option>
+          <option value="LCA">Saint Lucia</option>
+          <option value="MAF">Saint Martin (French part)</option>
+          <option value="SPM">Saint Pierre and Miquelon</option>
+          <option value="VCT">Saint Vincent and the Grenadines</option>
+          <option value="WSM">Samoa</option>
+          <option value="SMR">San Marino</option>
+          <option value="STP">Sao Tome and Principe</option>
+          <option value="SAU">Saudi Arabia</option>
+          <option value="SEN">Senegal</option>
+          <option value="SRB">Serbia</option>
+          <option value="SYC">Seychelles</option>
+          <option value="SLE">Sierra Leone</option>
+          <option value="SGP">Singapore</option>
+          <option value="SXM">Sint Maarten (Dutch part)</option>
+          <option value="SVK">Slovakia</option>
+          <option value="SVN">Slovenia</option>
+          <option value="SLB">Solomon Islands</option>
+          <option value="SOM">Somalia</option>
+          <option value="ZAF">South Africa</option>
+          <option value="SGS">South Georgia and the South Sandwich Islands</option>
+          <option value="SSD">South Sudan</option>
+          <option value="ESP">Spain</option>
+          <option value="LKA">Sri Lanka</option>
+          <option value="SDN">Sudan</option>
+          <option value="SUR">Suriname</option>
+          <option value="SJM">Svalbard and Jan Mayen</option>
+          <option value="SWZ">Swaziland</option>
+          <option value="SWE">Sweden</option>
+          <option value="CHE">Switzerland</option>
+          <option value="SYR">Syrian Arab Republic</option>
+          <option value="TWN">Taiwan, Province of China</option>
+          <option value="TJK">Tajikistan</option>
+          <option value="TZA">Tanzania, United Republic of</option>
+          <option value="THA">Thailand</option>
+          <option value="TLS">Timor-Leste</option>
+          <option value="TGO">Togo</option>
+          <option value="TKL">Tokelau</option>
+          <option value="TON">Tonga</option>
+          <option value="TTO">Trinidad and Tobago</option>
+          <option value="TUN">Tunisia</option>
+          <option value="TUR">Turkey</option>
+          <option value="TKM">Turkmenistan</option>
+          <option value="TCA">Turks and Caicos Islands</option>
+          <option value="TUV">Tuvalu</option>
+          <option value="UGA">Uganda</option>
+          <option value="UKR">Ukraine</option>
+          <option value="ARE">United Arab Emirates</option>
+          <option value="GBR">United Kingdom</option>
+          <option value="USA">United States</option>
+          <option value="UMI">United States Minor Outlying Islands</option>
+          <option value="URY">Uruguay</option>
+          <option value="UZB">Uzbekistan</option>
+          <option value="VUT">Vanuatu</option>
+          <option value="VEN">Venezuela, Bolivarian Republic of</option>
+          <option value="VNM">Viet Nam</option>
+          <option value="VGB">Virgin Islands, British</option>
+          <option value="VIR">Virgin Islands, U.S.</option>
+          <option value="WLF">Wallis and Futuna</option>
+          <option value="ESH">Western Sahara</option>
+          <option value="YEM">Yemen</option>
+          <option value="ZMB">Zambia</option>
+          <option value="ZWE">Zimbabwe</option>
+        </select>
+      </label>
+      <label>
+        <span>Street Address <span class="required">*</span></span>
+        <input type="text" name="houseadd" placeholder="House number and street name" required>
+      </label>
+      <label>
+        <span>Apartment, suite</span>
+        <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+      </label>
+      <label>
+        <span>Town / City <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+      <label>
+        <span>State / County <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+      <label>
+        <span>Postcode / ZIP <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+      <label>
+        <span>Phone <span class="required">*</span></span>
+        <input type="tel" name="city"> 
+      </label>
+      <label>
+        <span>Email Address <span class="required">*</span></span>
+        <input type="email" name="city"> 
+      </label>
+    </form>
+    <div class="Yorder">
+      <table>
+        <tr>
+          <th colspan="2">Your order</th>
+        </tr>
+        <tr>
+          <td>Service:</td>
+          <td>EXTENDED VERSION</td>
+        </tr>
+        <tr>
+          <td>Price:</td>
+          <td>$279.99</td>
+        </tr>
+      </table><br>
+    </div><!-- Yorder -->
+    <div id='container'>
+      <div id='info'>
+          <label for='paymentMethod'>Payment Method</label>
+          <select name='paymentMethod'>
+              <option>Visa</option>
+              <option>MasterCard</option>
+              <option>Elo</option>
+          </select>
+    
+          <!-- Credit Card Number -->
+          <label for='cardNumber'>Credit Card Number</label>
+          <input type='text' name='cardNumber' />
+    
+          <!-- Credit Card Holder Name -->
+          <label for='cardholderName'>Cardholder Name</label>
+          <input type='text' name='cardholderName' />
+    
+          <!-- Expiration Date -->
+          <label for='cardDate'>Expiration Date</label>
+          <input type='text' name='cardDate' />
+    
+          <!-- CVV Card Number -->
+          <label for='cvv'>CVV</label>
+          <input type='text' name='cvv' />
+        </div>
+    </div>
+    <div class="terms" id="termsAndConditions">
+      <div class="form-row place-order">
+            <div class="woocommerce-terms-and-conditions-wrapper">
+        <div class="woocommerce-privacy-policy-text"></div><div class="woocommerce-terms-and-conditions" style="max-height: 200px; overflow: auto;"><p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">This document sets out the Terms and Conditions for the use of the Pearson L homes website, Interactive services and Design services.</span></p>
+    <p style="text-align: left"><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">1) DEFINITIONS</span></p>
+    <p style="text-align: left"><strong>Pearson L Homes:</strong> The trading name of Pearson Limited (“We”, “Us”, “Our”);<br>
+    <strong>User:</strong> Any user of the Pearson L Homes website or its interactive services (“You”, “Your”);<br>
+    <strong>Client:</strong> Any User that enters into a contract with Us for the provision of design services;<br>
+    <strong>Site:</strong> Our website <a href="https://pearsonlhomes.net/">www.pearsonlhomes.net</a>;<br>
+    <strong>User-Generated Content:</strong> Data created by a User that is uploaded to the Site (“UGC”);<br>
+    <strong>Interactive Services:</strong> The services enabled by Our Site for messaging and uploading UGC;<br>
+    <strong>Design Services:</strong> The services available through Our Site for the provision of interior and garden designs;<br>
+    <strong>Design Package:</strong> An element of the Design Services that has an identified scope of work and purchase price;<br>
+    <strong>Project:</strong> The overall purpose of one or more related Design Packages undertaken for an individual Client;<br>
+    <strong>Writing:</strong> Reference to “writing” in these Terms &amp; Conditions includes communication by email.</p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">2) ENTIRE AGREEMENT</span></p>
+    <p><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">2.1) &nbsp; These Terms and Conditions constitute the entire agreement between You and Us for the use of the Site, the Interactive Services and the Design Services, and supersede any prior agreements.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">3) ABOUT US</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">3.1) &nbsp; &nbsp;We are Pearson Limited (trading as Pearson L homes), registered in England</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">3.2) &nbsp; &nbsp;You can contact Us by phoning Our customer helpline 020 3488 4873 or by writing to Us at Our registered address. As a Client, You will be notified of Our dedicated email contact address.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">4) USING OUR SITE</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">4.1) &nbsp; &nbsp;You may access Our Site for Your non-commercial use on the terms set out within this document. We do not guarantee that the Site will always be available to You and We will not be liable to You if the Site for any reason is unavailable.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">4.2) &nbsp; &nbsp;We do not warrant the validity and accuracy of the information on the Site, the Interactive Services, or third-party websites linked to the Site.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">4.3) &nbsp; We shall use Our reasonable endeavors to ensure that the Site and Your UGC are kept secure at all times.<span class="Apple-converted-space">&nbsp; </span>However, We do not warrant to You that your UGC will not be used by a third party.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">4.4) &nbsp; Any information obtained or downloaded by You shall be at Your own risk and We do not warrant that such information will be free of viruses or other malware. <span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">4.5) &nbsp; We do not warrant the functionality of any software provided to you through the Site.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">5) USING THE INTERACTIVE SERVICES</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">5.1) &nbsp; You will only have access to the full functionality of the Interactive Services by making an online purchase of one of our Design Services. <span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">5.2) &nbsp; &nbsp;The Interactive Services may include using Our interactive chat facility, completing Our online questionnaire, taking part in a virtual consultation with Our designer, receiving Your mood board, curated shopping list, plan and visualization (the exact activities depending on the design package You have purchased) and receiving Our post design support. <span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">5.3) &nbsp; We may add or amend from time to time the features we offer, at Our sole discretion and without prior notice.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">6) UPLOADING USER GENERATED CONTENT</span></p>
+    <p><span style="color: #000001;font-family: Raleway, sans-serif;font-size: medium"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">6.1) &nbsp;&nbsp;</span>To the extent that the Site allows, You may upload UGC provided that You comply with Our Acceptable Use Standards as laid out below.</span>&nbsp; <span style="color: #000001;font-family: Raleway, sans-serif;font-size: medium">You undertake that any UGC You submit complies with these standards and You shall be liable for any loss We incur from Your breach of this obligation.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">6.2) &nbsp; You understand and acknowledge that You have no ownership rights in the UGC that you post through the Site. In the event of Your relationship with Us being terminated, We may delete Your UGC. <span class="Apple-converted-space">&nbsp; </span>Should We find it necessary to retain any part of it, We will do so in accordance with Our Privacy Policy.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">6.3) &nbsp; We reserve the right to remove any UGC that if, in Our opinion, it does not meet our Acceptable Use Standards.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">6.4) &nbsp; You acknowledge that communications made over the internet may not be secure. We cannot warrant the security of any UGC or any other information or data that You send Us by means of the Site. Such communications are made at Your own risk.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">7) ACCEPTED USE STANDARDS</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">The use of Our Interactive Services by anyone under the age of 18 is subject to the consent of their parent or guardian.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">UGC must:</span></p>
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li style="list-style-type: none">
+    <ul>
+    <li style="list-style-type: none">
+    <ul>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Be accurate</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Comply with applicable legislation in England and in the country of posting </span></p>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">UGC must not:</span></p>
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li style="list-style-type: none">
+    <ul>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Be used to impersonate or misrepresent Your identity</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Be defamatory, obscene, offensive or inflammatory</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Promote any illegal activity</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Infringe any copyright, trademark or other intellectual property rights</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Be in breach of a third party duty in contract or in tort</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Involve the transmission of “spam”, “junk mail” or similar</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Contain hidden, password-restricted or similar pages</span></p>
+    </li>
+    </ul>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">We shall, at Our discretion, determine whether there has been a breach of these Acceptable Use Standards.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">8) GRANT OF A LICENCE TO HOUSE DESIGNER</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">8.1) &nbsp; Your UGC shall be considered non-confidential and non-proprietary.<span class="Apple-converted-space">&nbsp; </span>When You post UGC on the Site, You grant Us and Our assignees a worldwide, non-exclusive, royalty-free transferable license to copy, modify, disclose, or otherwise use such UGC and all things incorporated therein for any commercial or non-commercial purpose.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">8.2) &nbsp; The above license shall terminate when You write to Us to request Termination of these Terms and Conditions.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">9) CONDITIONS OF USE AND WARRANTIES</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">You may access the Site and the Interactive Services for Your own personal, non-commercial purposes, subject to the following conditions. You agree not to:</span></p>
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li style="list-style-type: none">
+    <ul>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Exploit any House Designer content (text, images or online forms) for any other purpose without Our written consent</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Alter or modify any part of the Site or Interactive Services</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Penetrate or attempt to penetrate the security features of the Site</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Use the Site for any commercial purpose (other than allowed under the Terms of Sale) without Our written consent</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Use the Site to host or transmit any viruses, trojans, worms or other malware</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Attack the Site via a denial-of-service attack</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Post or upload any UGC which contains unlawful material</span></p>
+    </li>
+    </ul>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">By using the Site, You warrant that You will:</span></p>
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li style="list-style-type: none">
+    <ul>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Comply with all applicable legislation and codes of practice</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Comply with Our Acceptable Use Standards above</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Comply with any guidelines or instructions reasonably issued by Us</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Be solely responsible for any breach of Your obligations under these Terms and Conditions whether by action or omission</span></p>
+    </li>
+    </ul>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">10) TERMINATION OF ACCESS OF THE SITE AND INTERACTIVE SERVICES</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">10.1) &nbsp; These Terms and Conditions shall apply at all times while You are making use of the Site and Interactive Services. <span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">10.2) &nbsp; At Our sole discretion and without notice We may at any time withdraw some or all of the Site access and Interactive Services available to you.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">10.3) &nbsp; We may modify or delete any UGC You have provided if We believe that the UGC is inconsistent with these Terms and Conditions. </span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">10.4) &nbsp; We reserve the right, where monetary damages do not provide a sufficient remedy, to seek injunctive or other equitable relief as may be necessary.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">10.5) &nbsp; You may terminate Your relationship with Us at any time by requesting, in writing, that We remove You from Our Client list.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">11) NO RELIANCE ON INFORMATION</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">11.1) &nbsp; The content on the Site is provided for general information only and is not intended to be advice on which you should rely.<span class="Apple-converted-space">&nbsp; </span>We advise that You obtain professional or specialist advice before taking any action based on the content of this Site.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">12) INTELLECTUAL PROPERTY RIGHTS</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">12.1) &nbsp; The Site and all its content including but not limited to text, code, graphics, photographs, and drawings are subject to copyright, trademarks and other Intellectual Property rights owned by Us or licensed to Us.<span class="Apple-converted-space">&nbsp; </span>You may not download content for any purpose whatsoever without Our prior written consent or, where applicable, Our licensors. We reserve all rights not expressly granted in the Site and its content.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">13) LIMITATION OF LIABILITY</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">13.1) &nbsp;Nothing in these Terms and Conditions limits Our liability for death or personal injury arising from Our negligence, or any other liability that cannot be limited by law.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">13.2) &nbsp; The use of the Site is entirely at Your own risk, to the extent that may be permitted by law and We exclude all warranties and representations, whether express or implied, which may apply to Our Site or its contents.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">14) PURCHASING DESIGN SERVICES</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.1) In order to secure Our Design Services, You must either:</span></p>
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Purchase one or more of Our Design Packages through the Site, thereby initiating a Project with Us; or</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">Contact Us through the Site for a free bespoke quotation.</span></p>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.2) &nbsp; Your contract for the Design Services will be between You and Us, subject to these Terms and Conditions. When We collect money in relation to the Design Services, We do so on Our own behalf. <span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.3) &nbsp; We take full payment up front and will begin work on your Design Project once Payment and all Information have been provided by a Clients . </span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.4) &nbsp; Your order for the Design Services, when made through the purchase of one or more of Our Design Packages, constitutes Your formal offer to Us.<span class="Apple-converted-space">&nbsp; </span>Acceptance of Your offer will take place when We confirm Your order in writing, at which point a contract will come into being.&nbsp;</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.5) &nbsp; If for any reason We are unable to accept Your order in whole or in part, We will advise You of this in writing and no contract will come into effect.<span class="Apple-converted-space">&nbsp; </span>Any payment You have sent Us will be due for a return to You.<span class="Apple-converted-space">&nbsp; </span>We may indicate, as applicable, the part or parts We can accept, together with the fee payable on them, and such communication will constitute Our counter-offer to You.<span class="Apple-converted-space">&nbsp; </span>Should You accept this counter-offer, a contract will come into being and an adjustment will be made accordingly to the sum due for a return to You.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.6) &nbsp; If You contact Us for a bespoke quotation, Our quotation will constitute Our offer to You. Acceptance will take place when You give Us instruction to proceed in writing, at which point a contract will come into being.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.7) &nbsp; Upon the creation of a contract, We shall notify you of a Project number, which You should use in all further communication with Us. We will also confirm with You Our anticipated schedule for performing Your Project and agree with You on the proposed start date.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.8) &nbsp; Our Design Services may specify other third party products and services that we reasonably believe may assist in implementing your design needs.&nbsp; We make these recommendations in good faith.</span></p>
+    <p><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.9) &nbsp; House Designer does not accept any responsibility or liability for any incorrect furniture ordered by you or a third party, or furniture that may be the wrong size, wrong colour or damaged on arrival, whether or not ordered by us.</span></p>
+    <p><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.10) &nbsp;We reserve the right to maintain commercial partnerships and affiliate relationships with third party goods and services providers. </span></p>
+    <p><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">14.11) &nbsp; Should contact cease for a continuous period of three (3) months or A Client fails to provide responses to us that, acting reasonably, we consider to be satisfactory in assisting progression of your design services.&nbsp;</span><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">We reserve the right to terminate our Services forthwith in these circumstances and&nbsp;we will regard your project as completed so therefore no further work will be carried out.&nbsp;</span></p>
+    <p>&nbsp;</p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">15) INFORMATION PROVIDED BY YOU</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">15.1) &nbsp; We may need certain information from You in order to provide the Design Services You have requested, such as room dimension or choice of style.<span class="Apple-converted-space">&nbsp; </span>Our Site and Interactive Services should facilitate Your submission to Us of the necessary information, depending on the Design Services You have selected.<span class="Apple-converted-space">&nbsp; </span>Where We do not have such information, or it is incomplete, We will contact You to explain what is required. </span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">15.2) &nbsp; You are responsible for ensuring the accuracy of any measurements you send Us.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">15.3) &nbsp; If You do not provide Us with the information We have requested within a reasonable time frame or the information is incomplete or incorrect, We may either terminate the contract or request further payment to cover all reasonable additional costs incurred.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">16) SERVICES PROVIDED BY US</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">16.1) &nbsp; We will nominate a designer dedicated to Your Project who will act as one-to-one contact with You, discussing Your requirements and providing advice.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">16.2) &nbsp; The precise performance and output of Our Design Services will depend upon the Design Package(s) You have selected but may typically comprise the following: Phone or video consultation with Your designer, mood board, concept, 2D plans and layouts, and curated shopping list.<span class="Apple-converted-space">&nbsp; </span>A description of the activities and deliverables associated with each Design Package is provided on Our Site. </span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">16.3) &nbsp; You will have the opportunity during the design process to provide feedback to Us in order that the Design Services We provide may fully satisfy Your Project expectations.<span class="Apple-converted-space">&nbsp; </span>Although We always hope to identify what You want straightaway, We recognize that more than one iteration of the design process may be required. &nbsp;</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">16.4) &nbsp; Where the Design Package includes any 3D content, such as 3D rendering, visualization, walkthrough, or similar, this work will be undertaken once only, for the design that has been given Your final approval. &nbsp;</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">16.5) &nbsp; We will provide the deliverables of Your Project via email to the address You provided at the time of ordering.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">16.6) All the deliverables created in whole or part by Us in connection with the provision of Our Design Services are protected by copyright, trade marks and other Intellectual Property Rights owned by Us or licensed to Us. You agree that all such deliverables are Our sole and exclusive property to the fullest extent permitted by law. To the extent that any such deliverables do not vest automatically with Us, You assign to us with full title guarantee any right, title and interest You may have in and to them.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">17) THIRD-PARTY LINKS</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">17.1) &nbsp; Where Our Design Services include a curated shopping list with links to third party websites for the purchase of items, although We will always endeavor to select retailers that share Our high standards, We are not responsible for the content, security, performance, practices or policies of their websites and do not guarantee or warrant that they will be inoffensive, fit for purpose or free of viruses or other malware.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">17.2) &nbsp; Any purchase by You from a third-party retailer is made by way of a separate contract between You and the retailer. We are neither a party to such a contract nor an agent of You or the retailer.<span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p style="text-align: left"><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">18) CANCELLATIONS AND REFUNDS</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">18.1) &nbsp; Your purchase of Our Design Services is protected by the Consumer Contracts (Information, Cancellation, and Additional Charges) Regulations 2013.&nbsp;</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">18.2) &nbsp; You have 14 days from entering into a contract with Us in which you can cancel it.<span class="Apple-converted-space">&nbsp;This is effective on the date which sale is made.&nbsp;</span>If You do so within this ‘cooling-off’ period and the date agreed for starting the Design Services is outside this 14 day period, We will refund all payments You have made for them in full.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">18.3) &nbsp;If, however, the agreed start date lies within this 14 day period, We will deduct from the refund all costs incurred up to the time of You canceling.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">18.4). &nbsp;If the Design Services have been completed, or after more than (14) days, no refund will be made.</span></p>
+    <p>&nbsp;</p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">19) PRICE AND PAYMENT</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">19.1) &nbsp; If You select one of Our Design Packages, the price will be clearly identified at the time of placing the Design Package in the online shopping basket and further confirmed at the time of checking out.<span class="Apple-converted-space">&nbsp; </span>Payment shall be made by secure online card payment.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">19.2) &nbsp; &nbsp;If You contact us for a free bespoke quotation, We shall clearly identify the price of the Design Services to be performed in Our offer to You.<span class="Apple-converted-space">&nbsp; </span>If You accept this offer, We shall send You an invoice for the quoted amount which shall be due for payment by BACS transfer prior to the start of the Design Services.<span class="Apple-converted-space">&nbsp; </span>Payment instructions will be included with the invoice.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">19.3) &nbsp; &nbsp;All prices include Valued Added Tax (VAT) where applicable.</span></p>
+    <p>&nbsp;</p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">20) TERMINATION OF DESIGN SERVICES</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">20.1) &nbsp; You may cancel the Design Services without cause at any time during the 14-day‘ cooling-off’ period, and we shall return Your payment, subject to any applicable deductions (see Section 18 Cancellation).</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">20.2) &nbsp; We shall carry out and complete the Design Services with the reasonable skill and care to be expected of a designer experienced in providing services of a similar nature.<span class="Apple-converted-space">&nbsp; </span>You have a legal right to terminate the contract if We fail to meet this standard.<span class="Apple-converted-space">&nbsp; </span>However, We will not be considered at fault simply because You do not like any item or recommendation of Our Design Services.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">20.3) &nbsp; We may terminate the contract if You break it, and in particular if:</span></p>
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li style="list-style-type: none">
+    <ol>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">You do not make any payments due within a reasonable timescale; or</span></p>
+    </li>
+    <li>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">You do not provide Us with the information necessary for performing the Design Services.</span></p>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    </li>
+    </ol>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">20.4) &nbsp;If We end the contract, We will return any payments You have made, subject to any deductions for costs incurred up to the moment of termination.</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">20.5) &nbsp; &nbsp;All notices of termination shall be in writing.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">21) ASSIGNMENT</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">We may transfer Our rights and obligations under these Terms and Conditions to another party.</span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">22) THIRD-PART RIGHTS</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">These Terms and Conditions provide for a contract between You and Us.<span class="Apple-converted-space">&nbsp; </span>No other party shall have the right to enforce any of its terms. <span class="Apple-converted-space">&nbsp;</span></span></p>
+    <p><span style="color: #d4af37;font-weight: 500;font-family: 'poppins', sans-serif;font-size: 16px">23) APPLICABLE LAW</span></p>
+    <p style="text-align: left"><span style="color: #000001;font-family: Raleway,sans-serif;font-size: medium">These Terms and Conditions shall be governed by the laws of England and for all matters arising in connection with their use both We and You shall submit to the exclusive jurisdiction of the courts of England and Wales.</span></p>
+    <p><i>Last updated: <strong><em>5th August 2021.</em></strong></i></p>
+    </div>
+                    <p class="form-row validate-required woocommerce-invalid woocommerce-invalid-required-field">
+                <label class="woocommerce-form__label woocommerce-form__label-for-checkbox checkbox">
+                <input style="position: relative;
+                margin: 0;
+                margin-top: 13px;" type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms" id="terms">
+                    <span class="woocommerce-terms-and-conditions-checkbox-text">I have read and agree to the website <a href="" class="woocommerce-terms-and-conditions-link woocommerce-terms-and-conditions-link--open" target="_blank">terms and conditions</a></span>&nbsp;<span class="required">*</span>
+                </label>
+                <input type="hidden" name="terms-field" value="1">
+            </p>
+            </div>
+    
+        
+        <button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</button>
+        
+        <input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="2cc8e72c76"><input type="hidden" name="_wp_http_referer" value="/?wc-ajax=update_order_review">	</div>
+    </div>
+   </div>
+  </div>
+</section>
+    
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="col-md-4">
+                        <!-- footer About section
+                        ========================== -->
+                        <div class="footer-about">
+                            <h3 class="footer-title">About</h3>
+                            <p>Here goes information about the company, 
+                              Here goes information about the company, 
+                              Here goes information about the company, 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- footer Address section
+                        ========================== -->
+                        <div class="footer-address">
+                            <h3 class="footer-title">Address</h3>
+                            <p>here goes addrress</p>
+                            <p class="contact-address">
+                                Contact us : <a href="#">here goes number </a> <br>
+                                Write us : <a href="#">here goes email</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- footer Media link section
+                        ========================== -->
+                        <div class="footer-social-media">
+                            <h3 class="footer-title">Keep in touch</h3>
+                            <ul class="footer-media-link">
+                                <li><a href="#"><i class="tf-ion-social-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="tf-ion-social-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="tf-ion-social-linkedin-outline"
+                                            aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="tf-ion-social-google-outline" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="tf-ion-social-instagram-outline"
+                                            aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-nav text-center">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="col-md-12">
+                        <div class="copyright">
+                            <p>&copy; 2021 Pearson L homes. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="plugins/jquery.min.js"></script>
+
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+    <!-- Lightbox -->
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Parallax -->
+    <script src="plugins/parallax.min.js"></script>
+    <!-- Video -->
+    <script src="plugins/jquery.vide.js"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+
+    <script src="js/script.js"></script>
+    </body>
+
+    </html>
